@@ -23,7 +23,7 @@ function App() {
          <Hello> Welcome to Re:learning Git</Hello>
         </p>
         <div className="links">
-        <Link href="/">Morgan's GitHub</Link>
+        <Link href="learnaboutmorgan.com">Morgan's GitHub</Link>
         <Link href="/">GitHub </Link>
         <Link href="/">BLM Site </Link>
         <Link href="/">NAACP </Link>
