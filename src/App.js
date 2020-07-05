@@ -28,7 +28,7 @@ function App() {
         <Link href="/">BLM Site </Link>
         <Link href="/">NAACP </Link>
         <button onClick={handleClick}>
-        {"CLICK ME"}
+        S{"CLICK THIS"}
       </button>
         </div>
       </header>
