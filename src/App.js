@@ -10,11 +10,11 @@ let Link = props => (
 );
 function App() {
 
-
   function handleClick(e) {
     e.preventDefault();
     alert('The link was clicking crazy.');
   }
+
   return (
     <div className="App">
       <header className="App-header">
