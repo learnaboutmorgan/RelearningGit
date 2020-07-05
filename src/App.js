@@ -12,7 +12,7 @@ function App() {
 
   function handleClick(e) {
     e.preventDefault();
-    alert('The link was clicking crazy.');
+    alert('TRACK CHANGES PLEASE.');
   }
 
   return (
@@ -29,6 +29,9 @@ function App() {
         <Link href="/">NAACP </Link>
         <button onClick={handleClick}>
         {"CLICK ME"}
+      </button>
+      <button onClick={handleClick}>
+        {"CLICKER 2"}
       </button>
         </div>
       </header>
