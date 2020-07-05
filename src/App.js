@@ -30,6 +30,9 @@ function App() {
         <button onClick={handleClick}>
         {"CLICK ME"}
       </button>
+      <button onClick={handleClick}>
+        {"CLICKER 2"}
+      </button>
         </div>
       </header>
     </div>
