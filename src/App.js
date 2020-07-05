@@ -12,7 +12,7 @@ function App() {
 
   function handleClick(e) {
     e.preventDefault();
-    alert('The link was clicking!');
+    alert('Button Clicked');
   }
 
   return (
@@ -23,10 +23,10 @@ function App() {
          <Hello> Welcome to Re:learning Git</Hello>
         </p>
         <div className="links">
-        <Link href="/">Morgan's GitHub</Link>
-        <Link href="/">GitHub </Link>
-        <Link href="/">BLM Site </Link>
-        <Link href="/">NAACP </Link>
+        <Link href="https://github.com/learnaboutmorgan">Morgan's GitHub</Link>
+        <Link href="https://github.com/">GitHub </Link>
+        <Link href="https://blacklivesmatter.com/">BLM Site </Link>
+        <Link href="https://www.naacp.org/">NAACP </Link>
         <button onClick={handleClick}>
         {"CLICK ME"}
       </button>
