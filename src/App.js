@@ -30,6 +30,7 @@ function App() {
         <button onClick={handleClick}>
         {"CLICK ME"}
       </button>
+  <button onClick ={handleClick}>{"NEW BUTTON"}</button>
         </div>
       </header>
     </div>
