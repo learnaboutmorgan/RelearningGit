@@ -12,7 +12,7 @@ function App() {
 
   function handleClick(e) {
     e.preventDefault();
-    alert('The link was clicking crazy.');
+    alert('TRACK CHANGES PLEASE.');
   }
 
   return (
