@@ -9,6 +9,12 @@ let Link = props => (
   </a>
 );
 function App() {
+
+
+  function handleClick(e) {
+    e.preventDefault();
+    alert('The link was clicked.');
+  }
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +27,9 @@ function App() {
         <Link href="/">GitHub </Link>
         <Link href="/">BLM Site </Link>
         <Link href="/">NAACP </Link>
+        <button onClick={handleClick}>
+        {"CLICK ME"}
+      </button>
         </div>
       </header>
     </div>
