@@ -23,18 +23,17 @@ function App() {
          <Hello> Welcome to Re:learning Git</Hello>
         </p>
         <div className="links">
-<<<<<<< HEAD
-        <Link href="learnaboutmorgan.com">Morgan's GitHub</Link>
-        <Link href="/">GitHub </Link>
-        <Link href="/">BLM Site </Link>
-        <Link href="/">NAACP </Link>
-=======
-        <Link href="https://github.com/learnaboutmorgan">Morgan's GitHub</Link>
+        <Link href="">Morgan's GitHub</Link>
         <Link href="https://github.com/">GitHub </Link>
         <Link href="https://blacklivesmatter.com/">BLM Site </Link>
         <Link href="https://www.naacp.org/">NAACP </Link>
->>>>>>> branch-two
         <button onClick={handleClick}>
+        {"CLICK ME"}
+      </button>
+      <button onClick={handleClick}>
+        {"CLICK ME"}
+      </button>
+      <button onClick={handleClick}>
         {"CLICK ME"}
       </button>
         </div>
