@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.links {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.links a:hover {
+  opacity: 1;
+  border-left: 8px solid #ffffff;
+  
+}
+
+.links a {
+  transition: all 0.2s;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  opacity: 0.66;
+  border-left: 4px solid #ffffff;
+  padding: 8px 36px;
+}
