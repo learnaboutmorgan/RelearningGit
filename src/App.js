@@ -10,11 +10,12 @@ let Link = props => (
 );
 function App() {
 
-
   function handleClick(e) {
     e.preventDefault();
-    alert('The link was clicked.');
+    console.log("BEST VIDEO EVER: https://www.youtube.com/watch?v=oHg5SJYRHA0");
+    alert('This button was clicked');
   }
+
   return (
     <div className="App">
       <header className="App-header">
